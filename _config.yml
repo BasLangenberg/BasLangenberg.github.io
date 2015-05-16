@@ -1,15 +1,33 @@
-# Site settings
-title: Bas Langenberg / HomeCooked.nl
-email: baslangenberg@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is the personal blog of Bas Langenberg. I tend to write about stuff I care about, which will be computers, mostly.
-  Please do reach out to me if you have any additions or questions.
-  All opinions and rants here are my own.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.homecooked.nl" # the base hostname & protocol for your site
-twitter_username: BasLangenberg
-github_username:  BasLangenberg
-timezone: Europe/Amsterdam
-
-# Build settings
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:title
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
 markdown: kramdown
+
+highlighter: pygments
+paginate: 20 # pagination based on number of posts
+paginate_path: "page/:num"
+
+# These paths are to the main pages Jekyll-Bootstrap ships with.
+# Some JB helpers refer to these paths; change them here if needed.
+#
+categories_path : categories.html
+tags_path : tags.html
+
+BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
+
+
+title : uno-dbyll
+
+
+
+author:
+  name: Ankan Biswas
+  role: Jekyll Theme
+  email: support@ankanbiswas.in
+  github: talk2ankan
+  twitter: talk2ankan
+  facebook: talk2ankan
+  googleplus: +AnkanBiswasWorkspace
+  bio: "Simple, clean, responsive and stylist theme for jekyll. "
+  uno-dbyll: https://raw.githubusercontent.com/talk2ankan/uno-dbyll/gh-pages/uno-dbyll.png
