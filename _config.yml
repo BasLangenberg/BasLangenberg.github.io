@@ -1,0 +1,15 @@
+# Site settings
+title: Bas Langenberg / HomeCooked.nl
+email: baslangenberg@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is the personal blog of Bas Langenberg. I tend to write about stuff I care about, which will be computers, mostly.
+  Please do reach out to me if you have any additions or questions.
+  All opinions and rants here are my own.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.homecooked.nl" # the base hostname & protocol for your site
+twitter_username: BasLangenberg
+github_username:  BasLangenberg
+timezone: Europe/Amsterdam
+
+# Build settings
+markdown: kramdown
