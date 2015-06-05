@@ -14,20 +14,19 @@ paginate_path: "page/:num"
 categories_path : categories.html
 tags_path : tags.html
 
-BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
+BASE_PATH : http://www.homecooked.nl
 
+# Fix encoding
+encoding: utf-8
 
-title : uno-dbyll
+title : HomeCooked.nl
 
 
 
 author:
-  name: Ankan Biswas
-  role: Jekyll Theme
-  email: support@ankanbiswas.in
-  github: talk2ankan
-  twitter: talk2ankan
-  facebook: talk2ankan
-  googleplus: +AnkanBiswasWorkspace
-  bio: "Simple, clean, responsive and stylist theme for jekyll. "
-  uno-dbyll: https://raw.githubusercontent.com/talk2ankan/uno-dbyll/gh-pages/uno-dbyll.png
+  name: Bas Langenberg
+  role: My little spot, rambling whenever I like
+  email: baslangenberg@gmail.com 
+  github: BasLangenberg
+  twitter: BasLangenberg
+  bio: "This is my spot on the world wide web. I'm writing about stuff I'm passionate about, mostly technology related. All my ramblings are my own and are not representing the views of my employers"
