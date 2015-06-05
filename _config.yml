@@ -14,7 +14,7 @@ paginate_path: "page/:num"
 categories_path : categories.html
 tags_path : tags.html
 
-BASE_PATH : http://www.homecooked.nl
+BASE_PATH : http://BasLangenberg.github.io
 
 # Fix encoding
 encoding: utf-8
