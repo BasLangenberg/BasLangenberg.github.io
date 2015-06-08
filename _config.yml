@@ -19,7 +19,7 @@ BASE_PATH : http://BasLangenberg.github.io
 # Fix encoding
 encoding: utf-8
 
-title: HomeCooked.nl
+page.title: HomeCooked.nl
 
 
 author:
