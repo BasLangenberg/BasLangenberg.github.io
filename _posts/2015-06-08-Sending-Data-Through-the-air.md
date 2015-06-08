@@ -9,16 +9,16 @@ Because my ethernet cable was there, and wireless was not working out of the box
 
 Investigation showed why this is not working out of the box. I had to install a [package](https://aur.archlinux.org/packages/b43-firmware/) from the Arch User Repository (AUR) as the firmware necessary for my Broadcom wireless adapter was a closed source blob. The driver is in the kernel, only the firmware was missing. The first step was installing the AUR helper of choice. I want to spend time figuring out which one to use, but I took [Yaourt](https://archlinux.fr/yaourt-en) anyway, since I did not want to spend a lot of time on this trivial topic. I do not plan on using a lot of AUR packages anyway, next to Gnome skins. Installing Yaourt is very easy. I did not want to clutter my Pacman configuration file with an unsupported repo, so I manually build it.
 
-''''curl -O https://aur.archlinux.org/packages/pa/package-query/package-query.tar.gz
-tar zxvf package-query.tar.gz
-cd package-query
-makepkg -si
-cd ..
-curl -O https://aur.archlinux.org/packages/ya/yaourt/yaourt.tar.gz
-tar zxvf yaourt.tar.gz
-cd yaourt
-makepkg -si
-cd ..''''
+    curl -O https://aur.archlinux.org/packages/pa/package-query/package-query.tar.gz
+    tar zxvf package-query.tar.gz
+    cd package-query
+    makepkg -si
+    cd ..
+    curl -O https://aur.archlinux.org/packages/ya/yaourt/yaourt.tar.gz
+    tar zxvf yaourt.tar.gz
+    cd yaourt
+    makepkg -si
+    cd ..
 
 All was working fine now regarding the AUR. What I did next was:
 
