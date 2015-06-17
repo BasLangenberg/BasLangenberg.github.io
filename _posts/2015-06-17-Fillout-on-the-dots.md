@@ -1,6 +1,6 @@
 ---
 layout: post
-title: fillout on the dots
+title: fill out on the dots
 ---
 
 It seems like holiday is almost over. When my daughter was born on the first of June, I took three weeks of for getting to know her and assist mom with the changes. Of course I needed to get myself in a different gear to. I am a new daddy again and I could not be more excited.
