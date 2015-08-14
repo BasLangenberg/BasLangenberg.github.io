@@ -6,11 +6,13 @@ tile: So what I've been up to
 Long time no blogging. This is probably not the last time this will happen. I tend to be 'busy'. Also, I only blog when I feel like and when I think I have something to talk about. I just try and post an update on what I have been working. Hell, maybe someone get's some inspiration out of this!
 
 **What have I accomplished**
+
 - WebLogic OCA 12c Certification in the pocket. I did not had my hopes up due to the baby and less time for studying, but I nailed it on the first time anyway!
 - I've setup a [GitHub Repo](http://github.com/BasLangenberg/dotfiles) in which I source my dotfiles. This way I can easily keep track of changes and add stuff everywhere.
 - I started using tmux. I like tmux, like a lot
 
 **What am I working on**
+
 - I'm dabbling in web development, via [The Odin Project](http://www.theodinproject.com). This might take some time...
 - I am spending time getting better at Puppet, so I can go for my certification. This is fun.
 
