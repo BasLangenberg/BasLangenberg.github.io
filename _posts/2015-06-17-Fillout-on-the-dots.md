@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: fill out on the dots
 ---
 

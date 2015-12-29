@@ -29,3 +29,6 @@ author:
   github: BasLangenberg
   twitter: BasLangenberg
   bio: "This is my spot on the world wide web. I'm writing about stuff I'm passionate about, mostly technology related. All my ramblings are my own and are not representing the views of my employers"
+permalink: /post/:title
+exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
+paginate: 4

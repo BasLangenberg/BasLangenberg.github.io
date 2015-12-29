@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 tile: So what I've been up to
 ---
 
