@@ -21,7 +21,7 @@ encoding: utf-8
 
 page.title: HomeCooked.nl
 
-
+site.url: www.homecooked.nl
 permalink: /post/:title
 exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
 paginate: 4
