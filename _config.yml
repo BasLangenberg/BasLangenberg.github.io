@@ -4,9 +4,12 @@ permalink: /:title
 # https://help.github.com/articles/migrating-your-pages-site-from-maruku
 markdown: kramdown
 
-highlighter: pygments
-paginate: 5 # pagination based on number of posts
-paginate_path: "page/:num"
+page.title: HomeCooked.nl
+site.url: www.homecooked.nl
+
+highlighter: rouge
+paginate: 10 # pagination based on number of posts
+paginate_path: "{{site.url}}/page/:num"
 
 # These paths are to the main pages Jekyll-Bootstrap ships with.
 # Some JB helpers refer to these paths; change them here if needed.
@@ -19,9 +22,6 @@ BASE_PATH : http://BasLangenberg.github.io
 # Fix encoding
 encoding: utf-8
 
-page.title: HomeCooked.nl
-
-site.url: www.homecooked.nl
 permalink: /post/:title
 exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
-paginate: 4
+paginate: 10
