@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
-gem 'github-pages'
-gem 'rouge'
-gem 'redcarpet', '>= 3.1'
+source :rubygems
+
+gem "jekyll", "~> 0.11.2"
+gem "neat", "~> 1.0.0"
