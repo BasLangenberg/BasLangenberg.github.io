@@ -1,61 +1,43 @@
 ---
-title: Exemplar
-nav: projects
+title: Homecooked.nl
+nav: blog
 subnav: exemplar-home
 layout: default
 ---
 <p>
-  This is an example of the default theme I use for my jekyll sites. This
-  theme is used for my <a href="http://tybenz.com">blog</a> and my project sites.
+  This is my little spot on the world wide web. I'm blogging about stuff I'm passionate about, mostly technology related. All my ramblings are my own and are not representing the views of my employers
 </p>
 
 <p>
-  This site uses a combination of the following:
+This site is (Proudly?) hosted by <a href="http://github.com">Github</a> and powered by the <a href="http://jekyllrb.com">Jekyll</a> Static site generator. The theme is the <a href="https://github.com/tybenz/exemplar">Exemplar</a> theme, made by <a href="http://tybenz.com/">Tyler Benziger</a>
 </p>
-
-<ol>
-  <li><a href="http://jekyllrb.com/">Jekyll</a>: Static site generator</li>
-  <li><a href="http://sass-lang.com">Sass</a>: CSS preprocessor</li>
-  <li><a href="http://bourbon.io">Bourbon</a>: Set of generic Sass mixins</li>
-  <li><a href="http://neat.bourbon.io">Neat</a>: Set of grid-based Sass mixins (dependent on Bourbon)</li>
-  <li>Fonts: <a href="http://www.fontsquirrel.com/fonts/bebas-neue">Bebas Neue</a>, <a href="https://github.com/adobe/source-sans-pro">Adobe Source Sans Pro</a>, <a href="https://github.com/adobe/source-code-pro">Adobe Source Code Pro</a></li>
-</ol>
-
 <br />
-
 <article class="post no-border">
-    <div class="post-header">
-        <p class="date">Feb 21, 2012</p>
-        <h1>Posts</h1>
-    </div>
-    <div class="post-body">
-      <p>
-        This is what a post looks like. Straight forward. Date goes above the header. Content goes below the header.
-      </p>
-      <p>Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-    </div>
-</article>
-
-<h1>Boxes</h1>
-<div id="projects">
-  {% for page in site.pages %}
-    {% if page.box == true %}
-      {% if page.link %}
-        <a class="project" href="{{ page.link }}">
-      {% else %}
-        <a class="project" href="{{ page.url | replace: '/index.html', '' }}">
-      {% endif %}
-          <div class="project-header">
-              <h2>
-                  {{ page.title }}
-              </h2>
-          </div>
-          <div class="project-body">
-            <p>
-                {{ page.summary }}
-            </p>
-          </div>
-        </a>
-    {% endif %}
+  <div class="post-header">
+      <h1>10 Most recent posts</h1>
+  </div>
+  {% for post in paginator.posts %}
+    <p class="author">
+      <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+    </p>
+    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+ <!--   <div class="content">
+      {{ post.content }}
+    </div> -->
   {% endfor %}
-</div>
+
+<!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
+</article>
