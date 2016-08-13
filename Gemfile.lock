@@ -17,6 +17,7 @@ GEM
       kramdown (~> 0.13)
       liquid (~> 2.3)
       maruku (~> 0.5)
+    jekyll-paginate (1.1.0)
     kramdown (0.14.1)
     liquid (2.4.1)
     maruku (0.6.1)
@@ -34,4 +35,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 0.11.2)
+  jekyll-paginate
   neat (~> 1.0.0)
+
+BUNDLED WITH
+   1.11.2
