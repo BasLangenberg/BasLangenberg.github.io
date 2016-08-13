@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Managing a blog is a weird thing"
 ---
 
