@@ -1,1 +1,1 @@
-Depricated. Moved to [Homecooked.nl](https://github.com/BasLangenberg/Homecooked.nl)
+Deprecated. Moved to [Homecooked.nl](https://github.com/BasLangenberg/Homecooked.nl)
